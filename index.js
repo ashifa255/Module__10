@@ -16,3 +16,14 @@ function countVowels(str) {
 }
 
 console.log(countVowels("Ashifa Tamanna"));
+
+/*
+  2. Write a function named sortNumbers that takes an array of numbers and returns the array sorted in ascending order.
+*/
+
+function sortNumbers(arr) {
+  return arr.sort((a, b) => a - b);
+}
+
+const result1 = sortNumbers([4, 1, 8, 3]);
+console.log(result1);
