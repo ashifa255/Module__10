@@ -73,3 +73,14 @@ function hasSpace(str) {
 
 const result5 = hasSpace("Ostad Limited");
 console.log(result5);
+
+/*
+  7. Write a function named isEmptyString that takes a string and returns true if the string is empty, otherwise false.
+*/
+
+function isEmptyString(str) {
+  return str === "";
+}
+
+console.log(isEmptyString(""));
+console.log(isEmptyString("Hello"));
