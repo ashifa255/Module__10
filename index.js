@@ -84,3 +84,14 @@ function isEmptyString(str) {
 
 console.log(isEmptyString(""));
 console.log(isEmptyString("Hello"));
+
+/*
+  8. Write a function removeNegativeNumbers(arr) that removes all negative numbers from the array.
+*/
+
+function removeNegativeNumbers(arr) {
+  return arr.filter(num => num >= 0);
+}
+
+const result6 = removeNegativeNumbers([-5, 2, -1, 6, 0]);
+console.log(result6);
