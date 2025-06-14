@@ -27,3 +27,14 @@ function sortNumbers(arr) {
 
 const result1 = sortNumbers([4, 1, 8, 3]);
 console.log(result1);
+
+/*
+  3. Write a function named reverseString that takes a string and returns the reversed version of the string.
+*/
+
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+const result2 = reverseString("hello");
+console.log(result2);
